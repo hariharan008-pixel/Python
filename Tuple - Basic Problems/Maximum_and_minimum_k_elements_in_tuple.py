@@ -1,0 +1,5 @@
+inp=(35,87,22,66,17,42,98,76)
+k=int(input("Enter a number : "))
+temp1=sorted(inp)
+temp2=(temp1[:k]+temp1[-k:])
+output=print(tuple(temp2))
