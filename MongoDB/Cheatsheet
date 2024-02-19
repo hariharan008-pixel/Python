@@ -1,1 +1,95 @@
+1. MongoDB
+There are two types of data, structured and unstructured data. Structured data are stored in tabular format, whereas unstructured data is not. To manage huge set of unstructured data, NoSql database came to place.
+MongoDB is opensource NoSQL database (Document database). It works on concept of Collection and Documents.
 
+2. How data stored in MongoDB ?
+	MongoDB stores data in BSON document (Binary JSON). These documents are stored in JSON format.
+
+3. Document 
+A document in MongoDB is a ordered set of key associated with values. Documents are represented as Object.
+
+4. Collection
+A collection in MongoDB is group of documents. A number of documents together is a collection.
+
+5. Database 
+A database in MongoDB is group of collection. A number of collections together is a database.
+
+6. Mongo Shell.
+	Mongo Shell is JavaScript shell, that allows us to interacts with MongoDB instances from command line.
+
+7. Features of MongoDB
+	Indexing
+	Aggregation
+	Sharding
+	File storage
+
+8. Datatypes in MongoDB
+	Null
+	Boolean
+	Number
+	String
+	Array
+	Object id
+	Regular Expression
+
+9. Indexing
+	Indexing helps us to extract particular data at particular place of the document. It makes query processing more efficient.
+
+10. Types of Indexing
+	Single field index
+	Compound index
+	Multikey index
+	Geospatial index
+	Text index
+	Hashed index
+
+11. Geospatial Indexing  
+	It is technique used in database to store and retrieve data based on the geographic location.
+
+12. Replication
+	Replication is the process of synchronizing data across multiple servers.
+
+13. Sharding
+	Sharding is a method of storing large number of data  records across multiple machines.
+
+14. Aggregation
+	Aggregation is the process of processing the data in the documents by means of multiple stages.
+
+15. Set Modifier
+	“$set” modifier sets value, if the value of the field does not exists.
+
+16. Embedded MongoDB document
+	Embedded or Nested document is anormal document that is nested inside another document within MongoDB.
+
+17. How to achieve Primary key – Foreign key relationship in MongoDB ?
+	By embedding one document inside another. For Eg :- A Department document have its Employee documents.
+
+18. When should we embed one document with another ?
+	Relationship between entities
+	One-to-many relationship
+	Performance reasons
+
+19. MongoClient
+	It is a class that allows for making Connections to a MongoDB.
+
+20. Pymongo
+	Python distribution containing tools for working with MongoDB
+
+21. Difference b/w SQL and MongoDB
+
+            	SQL	                                  MongoDB
+	Relational Database	                 Non-Relational Database
+	SQL Query Language	                 JSON Query Language
+	Stores data in separate tables	         Stores data in flexible documents
+	Does not perform Agile Practice 	 Performs Agile Practice
+
+22. CRUD OPERATION 
+
+	Insert – insert_one(),      insert_many()
+	Find – find_one(), find()
+		Query – find(myquery)
+		Sort – find().sort()
+		Limit – find().limit()
+	Delete – delete_one(), delete_many(), delete_many({})
+	Query–delete_one(myquery), delete_many(myquery)
+	Update – update_one(), update_many()
