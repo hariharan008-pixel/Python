@@ -1,18 +1,18 @@
 1. MongoDB
-There are two types of data, structured and unstructured data. Structured data are stored in tabular format, whereas unstructured data is not. To manage huge set of unstructured data, NoSql database came to place.
+	There are two types of data, structured and unstructured data. Structured data are stored in tabular format, whereas unstructured data is not. To manage huge set of unstructured data, NoSql database came to place.
 MongoDB is opensource NoSQL database (Document database). It works on concept of Collection and Documents.
 
 2. How data stored in MongoDB ?
 	MongoDB stores data in BSON document (Binary JSON). These documents are stored in JSON format.
 
 3. Document 
-A document in MongoDB is a ordered set of key associated with values. Documents are represented as Object.
+	A document in MongoDB is a ordered set of key associated with values. Documents are represented as Object.
 
 4. Collection
-A collection in MongoDB is group of documents. A number of documents together is a collection.
+	A collection in MongoDB is group of documents. A number of documents together is a collection.
 
 5. Database 
-A database in MongoDB is group of collection. A number of collections together is a database.
+	A database in MongoDB is group of collection. A number of collections together is a database.
 
 6. Mongo Shell.
 	Mongo Shell is JavaScript shell, that allows us to interacts with MongoDB instances from command line.
